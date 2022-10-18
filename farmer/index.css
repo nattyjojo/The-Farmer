@@ -1,0 +1,213 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 90%;
+    padding: 0%;
+    margin: 0%;
+    background-image: linear-gradient(#dcd0df, #bfbbbe);
+    background-image: url(https://www.indiaspend.com/h-upload/2022/07/26/760990-natural-farming-explained-1500.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+}
+
+section{
+    padding: 40px;
+    line-height: normal;
+    font-family: sans-serif;
+}
+.flex1{
+    display: flex;
+
+}
+.img1{
+    flex: 50%;
+}
+.reponsivesize{
+    flex: 50%;
+    font-weight: bolder;
+    font-size: large;
+    padding: 40px;
+}
+.tophead{
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+.flex2{
+    display: flex;
+}
+.img2{
+    max-width: 50%;
+
+}
+.spaceparagraph{
+    padding-left: 40px;
+    flex: 50%;
+    font-size: larger;
+}
+
+.bannercon{
+    max-width: 100%;
+    max-height: 50%;
+}
+
+.banner{
+    max-width: 100%;
+    max-height: 20%;
+    padding: 0%;
+    margin: 0%;    
+}
+.vquote{
+    background-color: blue;
+    color: white;
+    font-style: italic;
+    padding: 0px 5px;   
+}
+.fquote{
+    background-color: black;
+    color: red;
+    font-style: italic;
+    padding: 0px 5px;   
+   
+ 
+}
+.bad{
+    color: green;
+    text-transform: capitalize;
+}
+.good{
+    color: red;
+    text-transform: capitalize;
+    
+}
+.mainquote{
+    max-width: 50%;
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+    margin-left: 50%;
+    font-size: 160%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: lightgray;
+    font-style: italic;
+}
+hr{
+    color: green;
+}
+.tumbsup{
+    background-image: url(./assets/bien.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    
+}
+.tumbsdown{
+    background-image: url(./assets/mal.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.cat{
+    background-image: url(./assets/chat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+
+}
+a:hover{
+    color: green;
+}
+a:visited{
+    color: red;
+}
+a::after{
+    color: blue;
+}
+footer{
+    background-color: green;
+    padding: 5px;
+    text-align: center;
+}
+.conclusion{
+    background-color: lightgray;
+ 
+}
+.dialogTable{
+    width: 50%;
+    border-collapse: collapse;
+}
+.dialogTable th{
+    background-color: green;
+    text-align: left;
+    color: white;
+}
+.dialogTable th, .dialogTable td{
+    padding: 5px;
+    border: 2px solid black;
+}
+.dialogTable tr:nth-child(even){
+    background-color: lightgray;
+}
+.dialogTable tr:hover{
+    color: blue;
+}
+@media screen and (max-width: 600px) {
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        background-image: none;
+    }
+    .mainquote{
+        width: 100%;
+        margin: 0%;
+        padding-left: 10px;
+        font-size: 110%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 10px;
+        padding-right: 10px;
+    
+    }
+    .flex1{
+        flex-direction: column;
+        flex: 100%;
+
+    }
+    .flex2{
+        flex-direction: column;
+    }
+    .reponsivesize{
+        width: 100%;
+        font-weight: bold;
+        font-size: normal;
+        padding: 20px;
+    }
+    .img1{
+        max-width: 100%;
+    }
+    section{
+        padding: 10px;
+        line-height: normal;
+        font-family: sans-serif;
+    }
+    .img2{
+        max-width: 100%;
+    }
+    .spaceparagraph{
+        padding-left: 40px;
+        flex: 50%;
+        font-size: larger;
+    }
+    .dialogTable{
+        width: 100%;
+        border-collapse: collapse;
+    }
+}
+
